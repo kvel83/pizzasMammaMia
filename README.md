@@ -4,6 +4,9 @@
 
 Sitio de Pizzería Mamma Mía el cual cuenta con un catalogo de sus productos donde se puede ver el detalle de sus preparaciones y se pueden agregar al carro. Tambien existe un apartado de promociones donde a futuro se podrán colocar las promociones vigentes.
 
+![Captura de Pantalla 2023-03-26 a la(s) 00 09 57 (2)](https://user-images.githubusercontent.com/106329497/227754311-7aeb64cb-9bb0-43b5-b651-33c2aa3b5b6b.png)
+
+
 ## Estado del Proyecto
 
 :white_check_mark:Finalizado:white_check_mark:
