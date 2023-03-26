@@ -1,0 +1,12 @@
+.emptyCart{
+    display: flex;
+    align-items: center!important;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.imgEmptyCart{
+    width: 5rem!important;
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React  from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+// import MyContext from './utils/MyContext';
+import Home from './views/home';
+import Cart from './views/cart';
+import HeaderComp from './components/headerComp';
+import FooterComp from './components/footerComp';
+import NotFound from './views/notFound';
+import {ProvideContext} from './utils/MyContext';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProvideContext>
+        <BrowserRouter>
+          <HeaderComp className="header"/>
+            <Routes>
+              <Route  path="/" element={<Home />} />
+              <Route path='/Carrito' element={<Cart />} />
+              <Route path='/*' element={<NotFound />} />
+            </Routes>
+          <FooterComp />
+        </BrowserRouter>
+      </ProvideContext>
     </div>
   );
 }

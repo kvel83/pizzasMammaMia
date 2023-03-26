@@ -1,0 +1,29 @@
+.pizza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 100px!important; */
+}
+.pizzaImg{
+    width: 150px!important;
+    height: 100px!important;
+}
+.pizza > p{
+    font-weight: bold;
+    font-size: medium;
+}
+#pizzaName{
+    width: 300px;
+}
+#total{
+    font-size: larger;
+    font-weight: bolder;
+}
+.buttonsCart{
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
