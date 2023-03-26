@@ -1,71 +1,36 @@
-# Getting Started with Create React App
+﻿# Pizzería Mamma Mía
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+Sitio de Pizzería Mamma Mía el cual cuenta con un catalogo de sus productos donde se puede ver el detalle de sus preparaciones y se pueden agregar al carro. Tambien existe un apartado de promociones donde a futuro se podrán colocar las promociones vigentes.
 
-In the project directory, you can run:
+## Estado del Proyecto
 
-### `npm start`
+:white_check_mark:Finalizado:white_check_mark:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:eight_spoked_asterisk:A futuro se implementará versión Mobile:eight_spoked_asterisk:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+ - Agregar a Carrito: Presionando el botón se puede agregar la pizza al carrito, esta funcionalidad también esta presente en la vista del carrito en el símbolo "+".
+ - Descripción: Presionando el botón se abre modal con la descripción de la pizza y la posibilidad de agregarla al carrito desde un botón. Este modal también tiene un botón de cerrar y se puede cerrar haciendo click fuera del modal.
+ - Carrousel: Tiene un carrousel en el home donde se pueden agregar las imágenes que desee el cliente.
+ - Carrito: El carrito en sí tiene varias funcionalidades
+		 - Se muestra el detalle de las pizzas agregadas al carrito con la fotografía, cantidad, valor unitario y subtotal.
+		 - Al presionar el botón "+" al costado de la cantidad agrega automáticamente una pizza de esa variedad al carrito.
+		 - Al presionar el botón "-" al costado de la cantidad elimina automáticamente una pizza de esa variedad al carrito.
+		 - El subtotal por cada variedad de pizza es calculado automáticamente.
+		 - El botón vaciar carrito vacía todo lo que el carrito tenga.
+		 - La cantidad total y el Total de la compra se actualiza automáticamente
+ - En caso de no existir pizzas en el carrito muestra un mensaje invitando a agregar pizzas y con un botón que redirígeme al usuario al home.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologías utilizadas
 
-### `npm run build`
+ -  React
+-  Material UI
+- Material Icons
+-   React - router - dom
+-   Hooks useState, useNavigate, useContext
+-   CSS3
+-   Consumo de API con Fetch y Async - Await
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# pizzasMammaMia
