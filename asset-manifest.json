@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/pizzasMammaMia/static/css/main.f2aaea04.css",
-    "main.js": "/pizzasMammaMia/static/js/main.6a5e183c.js",
+    "main.js": "/pizzasMammaMia/static/js/main.6dc07c06.js",
     "static/media/bannerPizza2.jpg": "/pizzasMammaMia/static/media/bannerPizza2.87efcdc1936a22b7c59a.jpg",
     "static/media/bannerPizza3.jpg": "/pizzasMammaMia/static/media/bannerPizza3.ad6827e3716eca4d974b.jpg",
     "static/media/bannerPizza1.jpg": "/pizzasMammaMia/static/media/bannerPizza1.a98c3f7240300b55d800.jpg",
+    "static/media/notFound.png": "/pizzasMammaMia/static/media/notFound.3b7e1b7d1d2a42d12d9a.png",
     "static/media/logo.png": "/pizzasMammaMia/static/media/logo.d5b13d763b19dc490074.png",
     "index.html": "/pizzasMammaMia/index.html",
     "main.f2aaea04.css.map": "/pizzasMammaMia/static/css/main.f2aaea04.css.map",
-    "main.6a5e183c.js.map": "/pizzasMammaMia/static/js/main.6a5e183c.js.map"
+    "main.6dc07c06.js.map": "/pizzasMammaMia/static/js/main.6dc07c06.js.map"
   },
   "entrypoints": [
     "static/css/main.f2aaea04.css",
-    "static/js/main.6a5e183c.js"
+    "static/js/main.6dc07c06.js"
   ]
 }
