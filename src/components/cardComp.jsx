@@ -31,7 +31,7 @@ const CardComp = (props) => {
     console.log(carrito);
   }
     return (
-        <Card sx={{ maxWidth: 345 }} className='card' >
+        <Card sx={{ maxWidth: '10rem' }} className='card' >
       <CardMedia
         component="img"
         alt={pizza.name}

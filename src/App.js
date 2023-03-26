@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
       <ProvideContext>
-        <BrowserRouter>
+        <BrowserRouter basename='/pizzasMammaMia'>
           <HeaderComp className="header"/>
             <Routes>
               <Route  path="/" element={<Home />} />
               <Route path='/Carrito' element={<Cart />} />
-              <Route path='/*' element={<NotFound />} />
+              <Route path='*' element={<NotFound />} />
             </Routes>
           <FooterComp />
         </BrowserRouter>
