@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 30%;
+    }
+    .contacto p{
+        margin: 0;
+    }
+    .cont{
+        display: flex;
+        align-items: center;
+    }
+}

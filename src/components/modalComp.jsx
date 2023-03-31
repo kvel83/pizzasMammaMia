@@ -61,7 +61,7 @@ export default function BasicModal(props) {
                 <img src={pizza.img} alt="pizza" />
                 <div className="texto">
                     <p>{pizza.desc}</p>
-                    <ul>
+                    <ul className='ingredients'>
                         <p>Ingredientes</p>
                     {pizza.ingredients?.map(ingredient =>(
                       <li>{ingredient}</li>

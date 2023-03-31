@@ -45,3 +45,26 @@ ul > p{
     font-weight: bold;
 }
 
+@media only screen and (max-width: 600px){
+    .boxModal{
+        width: 75%!important;
+        height: 75%;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info img{
+        width: 75%;
+        height: auto;
+    }
+    .info h2{
+        margin: 0;
+    }
+    .info p{
+        margin: 0;
+    }
+    .ingredients{
+        display: none;
+    }
+}
+

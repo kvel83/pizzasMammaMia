@@ -3,14 +3,18 @@ import React from "react";
 import Logo from '../assets/img/logo.png';
 import SocialNetCompt from "./socialNetComp";
 
+import "./footerComp.css";
+
 const FooterComp = () => {
     const styleFooter = {
         // backgroundColor: '#d32f2f',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        gap: '20px',
         borderTop: '2px solid red',
+        flexDirection: 'column',
+        margin: '0',
+        padding: '0'
     };
     const styleLogo = {
         // backgroundColor: '#fdfd02',
@@ -27,11 +31,13 @@ const FooterComp = () => {
     }
     return(
         <div container style={styleFooter}>
-            <img src={Logo} alt="Logo mamma mia" style={styleLogo}/>
+            <div className="cont">
+            <img src={Logo} alt="Logo mamma mia" style={styleLogo} className='logo'/>
             <div className="contacto" style={styleContacto}>
                 <p>Dirección: Baker Street #221B</p>
                 <p>Teléfono: +56225488888</p>
                 <p>Mail: pedidos@mammamia.cl</p>
+            </div>
             </div>
             <SocialNetCompt />
         </div>

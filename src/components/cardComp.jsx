@@ -30,6 +30,10 @@ const CardComp = (props) => {
     addToCar(id);
     console.log(carrito);
   }
+  const generateKey = (pizza) => {
+    const pre = pizza.name;
+    return `${ pre }_${ new Date().getTime() }`;
+}
     return (
         <Card sx={{ maxWidth: '10rem' }} className='card' >
       <CardMedia
@@ -43,9 +47,9 @@ const CardComp = (props) => {
           {pizza.name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          <ul>
+          <ul key={(()=>generateKey(pizza)) }>
           {pizza.ingredients?.map(ingredient =>(
-            <li>{ingredient}</li>
+            <li key={(()=>generateKey(pizza))}>{ingredient}</li>
           ))}
           </ul>
         </Typography>

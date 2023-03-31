@@ -13,13 +13,13 @@ const HeaderComp = () => {
     const { total } = useContext(MyContext)
     return(
         <>
-            <Grid container spacing = {1} display="flex" justifyContent="center" alignItems="center">
-                <Grid item s={12} md={3}>
+            <Grid container spacing = {1} display="flex" justifyContent="space-evenly" alignItems="center" marginBottom="10px">
+                <Grid item s={12} md={3} className='logo'>
                     <img src={logo} alt="logo mamma mia" />
                 </Grid>
                 <Grid item s={12} md={3}>
                     <NavLink to='/'>
-                        <Button variant="contained" size="large" color="error" >Promociones</Button>
+                        <Button variant="contained" size="large" color="error" className="promos" >Promociones</Button>
                     </NavLink>
                 </Grid>
                 <Grid item s={12} md={3}>

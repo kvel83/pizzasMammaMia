@@ -1,10 +1,6 @@
 import React, { useState, useEffect} from "react";
 import { createContext } from "react";
 
-import Alert from '@mui/material/Alert';
-import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
-
 const MyContext = createContext({
     pizzas: [],
     carrito: [],
@@ -16,7 +12,7 @@ const MyContext = createContext({
 
 const ProvideContext = ({children}) =>{
 
-    const endpoint= "./pizzas.json";
+    const endpoint= (process.env.PUBLIC_URL+"/pizzas.json");
     const [pizzas, setPizzas] = useState([]);
     const [carrito, setCarrito] = useState([]);
     const [total, setTotal] = useState(0);
@@ -65,9 +61,6 @@ const ProvideContext = ({children}) =>{
         let subtotal = 0;
         const pizzaIndex = carrito.findIndex(pizza => pizza.id === id)
         subtotal = carrito[pizzaIndex].quantity * carrito[pizzaIndex].price
-        // carrito.forEach(pizza => {
-            // subtotal += (pizza.quantity * value);
-        // });
         return subtotal;
     }
     const totalCart = () => {
