@@ -48,23 +48,23 @@ ul > p{
 @media only screen and (max-width: 600px){
     .boxModal{
         width: 75%!important;
-        height: 75%;
+        height: 75%!important;
     }
     .info{
-        flex-direction: column;
+        flex-direction: column!important;
     }
     .info img{
-        width: 75%;
-        height: auto;
+        width: 75%!important;
+        height: auto!important;
     }
     .info h2{
-        margin: 0;
+        margin: 0!important;
     }
     .info p{
-        margin: 0;
+        margin: 0!important;
     }
     .ingredients{
-        display: none;
+        display: none!important;
     }
 }
 
