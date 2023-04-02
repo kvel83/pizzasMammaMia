@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 .boxModal{
-    width: auto!important;
+    width: auto;
 }
 #name{
     border-bottom: 2px solid red;
@@ -48,23 +48,25 @@ ul > p{
 @media only screen and (max-width: 600px){
     .boxModal{
         width: 75%!important;
-        height: 75%!important;
-    }
-    .info{
+        /* height: 75%; */
+        display: flex!important;
         flex-direction: column!important;
     }
+    .info{
+        flex-direction: column;
+    }
     .info img{
-        width: 75%!important;
-        height: auto!important;
+        width: 75%;
+        height: auto;
     }
     .info h2{
-        margin: 0!important;
+        margin: 0;
     }
     .info p{
-        margin: 0!important;
+        margin: 0;
     }
     .ingredients{
-        display: none!important;
+        display: none;
     }
 }
 
